@@ -1,0 +1,28 @@
+
+Riise Kennard, riakenna@ucsc.edu
+README : pa3
+
+Files:
+
+List.java
+A doubly linked list  with a cursor node creating a List ADT. The nodes data 
+is an int and there are prev and next pointers to other nodes.
+
+ListTest.java
+The client test for the List ADT. Checks each operation of the List class.
+
+Matrix.java
+A matrix ADT that represents the nonzero entries of a sparse matrix using an
+array of Lists ADT to contain each row. The list nodes contain Entry Objects (col, data).
+
+MatrixTest.java
+The client  test for the Matrix ADT. Checks each operation for the Matrix class.
+
+Sparse.java
+The main file for this assigment. Implements Matrix.java and List.java.
+It takes in two arguements for the input file and the output file, reads 
+through the input file to create two matrices, A and B. It then outputs to the file A, B, (1.5)*A, 
+A+B, A+A, B-A, A-A, transpose(A), A*B, B*B.
+
+Makefile
+This file creates an executable jar file called Sparse.
