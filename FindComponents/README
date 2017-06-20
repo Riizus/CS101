@@ -1,0 +1,33 @@
+//------------------------------------------------------------------------------#
+//   Riise Kennard, riakenna@ucsc.edu                                           #
+//   CS 101: PA5                                                                #
+//   README                                                                     #
+//                                                                              #
+//------------------------------------------------------------------------------#
+
+
+List.c
+Implementation of doubly linked list ADT that stores integers as data.
+
+List.h
+Header of doubly linked list ADT that stores integers as data.
+
+Graph.c
+Implementation of Graph ADT that performs BFS on an input file.
+
+Graph.h
+Header of Graph ADT that performs BFS on an input file.
+
+GraphTest.c
+Client test for the Graph ADT which performs all the public
+actions available.
+
+FindComponents.c
+Uses the Graph ADT and an input file to find the strongly connected components of the graph.
+
+Makefile
+Makes all files into an executable file. Other functions for testing and memory.
+
+README
+A file containing a table of contents for the source
+code and other related files.
