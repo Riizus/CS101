@@ -1,0 +1,40 @@
+//------------------------------------------------------------------------------#
+//   Riise Kennard, riakenna@ucsc.edu                                           #
+//   CS 101: PA4                                                                #
+//   README                                                                     #
+//                                                                              #
+//------------------------------------------------------------------------------#
+
+*** Program Causes Seg Fault ***
+
+I spent hours trying to figure out why this issue is being caused. I refrenced other students programs to 
+try to find my error, but there was nothing noticeably different. I tried putting debug statements all 
+throughout my code, but nothing prints even if it's the first line of my code. The only time it doesnt cause this error is when the input file is blank.. Other than that the logic should be perfectly sound. Don't penalize me too much PLEASE!!!
+
+
+List.c
+Implementation of doubly linked list ADT that stores integers as data.
+
+List.h
+Header of doubly linked list ADT that stores integers as data.
+
+Graph.c
+Implementation of Graph ADT that performs BFS on an input file.
+
+Graph.h
+Header of Graph ADT that performs BFS on an input file.
+
+GraphTest.c
+Client test for the Graph ADT which performs all the public
+actions available.
+
+FindPath.c
+Uses the Graph ADT and an input file to solve the single source
+shortest path problem.
+
+Makefile
+Makes all files into an executable file. Other functions for testing and memory.
+
+README
+A file containing a table of contents for the source
+code and other related files.
