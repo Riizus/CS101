@@ -1,0 +1,23 @@
+Riise Kennard, riakenna@ucsc.edu
+CS 101: PA2
+October 7, 2016
+
+List.c
+A doubly linked list  with a cursor node creating a List ADT. The nodes data 
+is an int and there are prev and next pointers to other nodes.
+
+ListClient.c
+The client test for the List ADT, which was provided
+by the instructor.
+
+Lex.c
+A client module that will sort a input file and 
+output the sorted lines into a given filename.
+
+Makefile
+Modified from PA1 directory to compile all files into a jar file,
+with other attributes for cleaning.
+
+README
+A file containing a table of contents for the source
+code and other related files.
